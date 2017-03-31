@@ -1,1 +1,74 @@
-p {color:green;}
+*{
+	padding:0;
+	margin:0;
+}
+.header{
+	width:100%;
+	height:48px;
+	background:#07cbc9;
+}
+.header .logo img{
+	margin-left:68px;
+	float:left;
+}
+.header .menu ul{
+	margin-right:50px;
+}
+.header .menu li{
+	float:right;
+	list-style-type:none;
+	width:80px;
+	color:#7d7d7d;
+	text-align:center;
+	line-height:50px;
+}
+.banner .pic img{
+	width:100%;
+	position:relative;
+	height:800px;
+}
+.topLayer{
+	background-color:#000000;
+	opacity:0.5;
+	z-index:1; /*这个属性什么意思？*/
+	position:absolute;
+	top:50px;
+	width:100%;
+	height:800px;
+}
+.banner .btn{
+	z-index:2;
+	top:50px;
+	right:50%;
+	opacity:0.9;
+	position:absolute;
+	text-align:center;
+	margin-top:150px;
+	margin-right:-250px;
+}
+.banner .btn form{
+	padding-top:100px;
+	background-color:#000000;
+	background:transparent;
+}
+.banner .btn .tran{
+	background:transparent;
+	color:#FFFFFF;
+	margin-bottom:16px;
+}
+.about .title{
+	font-size:64px;
+	text-align:center;
+}
+.about .line{
+	width:2%;
+	color:#07cbc9;
+	right:50%;
+	margin-left:49%;
+	text-align:center;
+}
+.about .word{
+	text-align:center;
+}
+
+
