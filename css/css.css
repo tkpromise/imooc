@@ -71,4 +71,42 @@
 	text-align:center;
 }
 
+.about .word2{
+	width:90px;
+	margin-left:200px;
+	padding-left:10px;
+	border:1px solid;
+}
 
+.text{
+	position:relative;
+	top:10px;
+	left:210px;
+	width:400px;
+	border:1px solid;
+}
+
+.bb3 img{
+	position:absolute;
+	top:1029px;
+	left:300px;
+	width:400px;
+	height:240px;
+	z-index:-1;	
+}
+
+.price1 table{
+	border:1px  #07cbc9 solid;
+	width:100px;	
+	top:1100px;
+	left:800px;
+	position:absolute;
+
+
+}
+
+.pricel table tr td{
+	width:10px;
+	height:10px;
+	color:#ffcccc;
+}
